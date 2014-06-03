@@ -89,8 +89,8 @@ a:after {
 .navbar {
 	font-weight: 800;
 	font-size: 14px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .navbar-inverse {
@@ -99,7 +99,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878;
+	background: #0000cd;
 }
 
 .navbar-inverse .navbar-brand {
