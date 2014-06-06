@@ -7,6 +7,24 @@
  * URL: http://blacktie.co
  */
 
+/*講義名色分け*/
+.orange {
+    color:orange;
+}
+
+.blue {
+    color:blue;
+}
+
+.yellow {
+    color:yellow;
+}
+
+/*テスト*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #ff8c00;
+}
+
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
@@ -99,7 +117,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #0000cd;
+	background: #ff7f50;
 }
 
 .navbar-inverse .navbar-brand {
