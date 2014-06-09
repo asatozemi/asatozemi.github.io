@@ -16,7 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
-
+    <link href="assets/css/ResponsiveSlides.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -52,6 +52,15 @@
     </div>
 
       <div class="container">
+
+      <ul class="rslides">
+        <li><img src="assets/img/top1.jpg" alt=""></li>
+        <li><img src="assets/img/top2.jpg" alt=""></li>
+        <li><img src="assets/img/top3.jpg" alt=""></li>
+        <li><img src="assets/img/top4.jpg" alt=""></li>
+        <li><img src="assets/img/top5.jpg" alt=""></li>
+      </ul>
+
        <div class="row">
 
         <div class="embed-container">
@@ -96,5 +105,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/responsiveslides.min.js"></script>
+    <script>
+      $(function() {
+        $(".rslides").responsiveSlides();
+      });
+    </script>
   </body>
 </html>
